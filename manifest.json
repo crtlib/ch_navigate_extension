@@ -1,0 +1,11 @@
+{
+  "name": "Navigate to CH ticket",
+  "description" : "To use, type 'ch' plus a ticket number into the Omnibox.",
+  "version": "1.0",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "omnibox": { "keyword" : "ch" },
+  "manifest_version": 2
+}
